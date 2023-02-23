@@ -1,12 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+
 * {
     margin: 0;
     /* padding: 0; */
     box-sizing: border-box;
+    font-family: 'Oxygen Mono', monospace;
 }
 
 body {
     display: flex;
     justify-content: center;
+}
+
+button {
+    padding: 8px;
+    border-radius: 50%;
+    border-style: none;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
 }
 
 #calculator {
@@ -17,4 +29,28 @@ body {
 
 #display {
     text-align: right;
+    font-size: 30px;
+}
+
+#equals {
+    color: #222222;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.operator, .numb {
+    width: 45px;
+}
+
+.operator {
+    background-color: #ff8c00;
+}
+
+.numb {
+    background-color: #666666;
+}
+
+.marg-top {
+    margin-top: 8px;
 }

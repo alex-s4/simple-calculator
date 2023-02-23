@@ -51,4 +51,5 @@ function clr() {
     num2 = ""
     operator = ""
     answer = 0
+    numDisplay.innerText = answer;
 }
